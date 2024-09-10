@@ -1,0 +1,8 @@
+{
+  "name": "Aprender",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "7b763fb7"
+}
