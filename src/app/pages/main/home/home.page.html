@@ -1,0 +1,87 @@
+
+<app-header [showMenu]="true" title="Inicio"></app-header>
+
+<ion-content style="background-color: #bfe2fe" padding class="">
+
+
+  <ion-grid  >
+    <ion-col >
+    </ion-col>
+    <ion-row>
+      <ion-col col-6>
+          <button style="background-color: #05b4a4" ion-button full class="btn_menu" (click)="irAbecedario()">
+              <ion-grid>
+                  <ion-row>
+                      <ion-col col-12>
+                        <div><img class="c_img" src="../../assets/img/pri/abecedario.jpg"></div>
+                      </ion-col>
+                    </ion-row>
+                    <ion-row>
+                      <ion-col col-12 class="spa_letra">
+                        <div class="btn_letras">ABECEDARIO</div>
+                      </ion-col>
+                    </ion-row>
+              </ion-grid>
+            </button>
+        </ion-col>
+      <ion-col col-6>
+          <button style="background-color: #05b4a4" ion-button full class="btn_menu" (click)="irNumeros()">
+              <ion-grid>
+                  <ion-row>
+                      <ion-col col-12>
+                        <div><img class="c_img" src="../../assets/img/pri/numeros.jpg"></div>
+                      </ion-col>
+                    </ion-row>
+                    <ion-row>
+                      <ion-col col-12 class="spa_letra">
+                        <div class="btn_letras">NÚMEROS</div>
+                      </ion-col>
+                    </ion-row>
+              </ion-grid>
+            </button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6>
+          <button style="background-color: #05b4a4" ion-button full class="btn_menu" (click)="irColores()">
+              <ion-grid>
+                  <ion-row>
+                      <ion-col col-12>
+                        <div><img class="c_img" src="../../assets/img/pri/colores_imgt.png"></div>
+                      </ion-col>
+                    </ion-row>
+                    <ion-row>
+                      <ion-col col-12 class="spa_letra">
+                        <div class="btn_letras">COLORES</div>
+                      </ion-col>
+                    </ion-row>
+              </ion-grid>
+            </button>
+      </ion-col>
+      <ion-col col-6>
+          <button style="background-color: #05b4a4" ion-button full class="btn_menu" (click)="irFiguras()">
+              <ion-grid>
+                  <ion-row>
+                      <ion-col col-12>
+                        <div><img class="c_img" src="../../assets/img/pri/figurasg_t.png"></div>
+                      </ion-col>
+                    </ion-row>
+                    <ion-row>
+                      <ion-col col-12 class="spa_letraF">
+                        <div class="btn_letras">FIGURAS</div>
+                      </ion-col>
+                    </ion-row>
+              </ion-grid>
+            </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+<ion-fab vertical="bottom" horizontal="center" slot="fixed">
+  <ion-fab-button>
+    <ion-icon name="add"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
+
+</ion-content>
